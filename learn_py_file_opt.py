@@ -4,6 +4,7 @@ import shutil
 """
     文件及文件夹操作
 """
+file_name = "img_soa.png"
 
 print(
     "======================================= 创建文件夹 ======================================="
@@ -31,8 +32,8 @@ dir3 = "./resources/dir3/"
 print(
     "======================================= 文件操作 ======================================="
 )
-file_source = dir1 + "/1.jpg"
-file_target = dir2 + "/1.jpg"
+file_source = dir1 + file_name
+file_target = dir2 + file_name
 # 复制文件
 shutil.copyfile(file_source, file_target)
 # 移动文件
