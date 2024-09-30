@@ -10,3 +10,5 @@ print(num1, f"param {num1} type is: {type(num1)}")
 print(num2, f"param {num2} type is: {type(num2)}")
 print(str1, f"param {str1} type is: {type(str1)}")
 print(isTrue, f"param {isTrue} type is: {type(isTrue)}")
+
+# 类型转换
