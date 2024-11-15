@@ -1,6 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+"""
+    折线图
+"""
+
 # 创建一个x值的数组，从2pi到2pi，步长为0.01
 x = np.arange(-2 * np.pi, 2 * np.pi, 0.01)
 

@@ -2,6 +2,10 @@ import random
 import numpy as np
 import matplotlib.pyplot as plt
 
+"""
+    散点图
+"""
+
 # 点坐标
 num_points = 100
 x = np.random.rand(num_points)  # x坐标

@@ -4,6 +4,7 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog
 from PyQt5 import QtGui
 
 
+# 打开图片
 class CamShow(QMainWindow, Ui_MainWindow):
     """
     继承 QMainWindow, Ui_MainWindow 类, python是多继承

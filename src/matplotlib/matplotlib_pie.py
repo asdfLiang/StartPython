@@ -1,5 +1,9 @@
 import matplotlib.pyplot as plt
 
+"""
+    扇形图
+"""
+
 # 数据
 sizes = [15, 30, 45, 10]  # 各部分大小
 labels = ["A", "B", "C", "D"]  # 各部分标签

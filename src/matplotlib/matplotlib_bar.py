@@ -1,6 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+"""
+    柱状图
+"""
+
 # 数据
 labels = ["A", "B", "C", "D", "E"]
 values = [3, 7, 2, 5, 8]
