@@ -1,12 +1,34 @@
 """
-    python的基本数据类型：整数、浮点、字符串、布尔
+    python3的6种基本数据类型：Number(int, float, complex, bool)、String、List、Set、Dictionary、Tuple
 """
 
-num1 = 1234
-num2 = 1234.0
-str1 = "12345"
-isTrue = True
-print(num1, f"param {num1} type is: {type(num1)}")
-print(num2, f"param {num2} type is: {type(num2)}")
-print(str1, f"param {str1} type is: {type(str1)}")
-print(isTrue, f"param {isTrue} type is: {type(isTrue)}")
+# 数字
+intNum = 1234
+floatNum = 1234.0
+boolNum = True
+complexNum = 3 + 4j
+
+print(intNum, f" type is: {type(intNum)}")
+print(floatNum, f" type is: {type(floatNum)}")
+print(boolNum, f" type is: {type(boolNum)}")
+print(complexNum, f" type is: {type(complexNum)}")
+
+# 字符串
+string = "12345"
+print(string, f" type is: {type(string)}")
+
+# 列表
+list0 = [1, 2, 3]
+print(list0, f" type is: {type(list0)}")
+
+# 集合
+set0 = {1, 2, 3}
+print(set0, f" type is: {type(set0)}")
+
+# 字典
+dict0 = {1: "a", 2: "b", 3: "c"}
+print(dict0, f" type is: {type(dict0)}")
+
+# 元组
+tuple0 = (1, 2, 3)
+print(tuple0, f" type is: {type(tuple0)}")
