@@ -2,7 +2,15 @@
     文件读取
 """
 
-# 读取全部
+# 第一种读取方式：手动读取
+f = open("resources/training_log.txt", "r")
+try:
+    print(f.read())
+finally:
+    f.close()
+
+
+# 第二种读取方式：with...as...，自动捕获异常、关闭流
 with open("resources/training_log.txt", "r") as file:
     content = file.read()
     print(content)
